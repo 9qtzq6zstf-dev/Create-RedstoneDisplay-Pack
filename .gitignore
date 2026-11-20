@@ -1,8 +1,8 @@
-﻿# 编辑器/IDE 目录
+# 编辑器/IDE 目录
 .idea/
 .vscode/
 
 # 日志与临时文件
 *.log
-log.txt
+!log.txt
 *.tmp
