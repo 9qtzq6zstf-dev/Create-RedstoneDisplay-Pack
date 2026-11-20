@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/repackager/block_vertical_down",
+	"textures": {
+		"4": "create:block/packager_arrow_on",
+		"5": "create:block/packager_vertical_powered"
+	}
+}

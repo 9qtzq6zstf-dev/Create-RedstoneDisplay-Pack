@@ -1,0 +1,9 @@
+{
+	"parent": "create:block/packager/block_vertical_powered",
+	"textures": {
+		"0": "fluidlogistics:block/packager_frame",
+		"1": "fluidlogistics:block/packager_details",
+		"5": "fluidlogistics:block/packager_vertical_powered",
+		"particle": "fluidlogistics:block/packager_particle"
+	}
+}

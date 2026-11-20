@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "simulated:block/optical_sensor/block",
+	"textures": {
+		"3": "simulated:block/optical_sensor/optical_sensor_on",
+		"4": "create:block/threshold_switch/panel_arrow_5",
+		"7": "simulated:block/optical_sensor/optical_sensor_bottom_on",
+		"particle": "simulated:block/optical_sensor/optical_sensor_bottom_on"
+	}
+}

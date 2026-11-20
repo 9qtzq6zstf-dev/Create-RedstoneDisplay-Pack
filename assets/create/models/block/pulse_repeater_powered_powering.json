@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/diodes/pulse_repeater",
+  "textures": {
+    "top": "create:block/diodes/pulse_repeater/powered_powering",
+    "torch": "create:block/create_redstone_torch"
+  }
+}

@@ -1,0 +1,724 @@
+﻿{
+    "variants":  {
+                     "backwards=false,shape=ascending_east,power=0":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=0":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=0":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=0":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=0":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=0":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=0":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=0":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=0":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=0":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=0":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south"
+                                                                   },
+                     "backwards=true,shape=north_south,power=0":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=1":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_1",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=1":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_1",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=1":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_1"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=1":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_1",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=1":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_1"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=1":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_1",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=1":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_1",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=1":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_1",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=1":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_1",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=1":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_1",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=1":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_1"
+                                                                   },
+                     "backwards=true,shape=north_south,power=1":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_1",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=2":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_2",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=2":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_2",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=2":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_2"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=2":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_2",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=2":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_2"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=2":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_2",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=2":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_2",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=2":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_2",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=2":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_2",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=2":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_2",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=2":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_2"
+                                                                   },
+                     "backwards=true,shape=north_south,power=2":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_2",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=3":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_3",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=3":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_3",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=3":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_3"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=3":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_3",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=3":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_3"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=3":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_3",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=3":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_3",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=3":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_3",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=3":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_3",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=3":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_3",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=3":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_3"
+                                                                   },
+                     "backwards=true,shape=north_south,power=3":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_3",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=4":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_4",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=4":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_4",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=4":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_4"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=4":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_4",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=4":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_4"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=4":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_4",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=4":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_4",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=4":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_4",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=4":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_4",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=4":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_4",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=4":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_4"
+                                                                   },
+                     "backwards=true,shape=north_south,power=4":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_4",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=5":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_5",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=5":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_5",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=5":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_5"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=5":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_5",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=5":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_5"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=5":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_5",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=5":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_5",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=5":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_5",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=5":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_5",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=5":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_5",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=5":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_5"
+                                                                   },
+                     "backwards=true,shape=north_south,power=5":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_5",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=6":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_6",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=6":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_6",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=6":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_6"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=6":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_6",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=6":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_6"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=6":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_6",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=6":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_6",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=6":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_6",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=6":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_6",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=6":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_6",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=6":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_6"
+                                                                   },
+                     "backwards=true,shape=north_south,power=6":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_6",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=7":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_7",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=7":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_7",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=7":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_7"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=7":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_7",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=7":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_7"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=7":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_7",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=7":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_7",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=7":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_7",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=7":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_7",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=7":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_7",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=7":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_7"
+                                                                   },
+                     "backwards=true,shape=north_south,power=7":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_7",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=8":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_8",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=8":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_8",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=8":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_8"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=8":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_8",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=8":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_8"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=8":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_8",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=8":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_8",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=8":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_8",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=8":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_8",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=8":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_8",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=8":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_8"
+                                                                   },
+                     "backwards=true,shape=north_south,power=8":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_8",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=9":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_9",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_east,power=9":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_north_redstone_9",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=ascending_north,power=9":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_9"
+                                                                       },
+                     "backwards=true,shape=ascending_north,power=9":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_9",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_south,power=9":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_9"
+                                                                       },
+                     "backwards=true,shape=ascending_south,power=9":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_9",
+                                                                          "y":  180
+                                                                      },
+                     "backwards=false,shape=ascending_west,power=9":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_9",
+                                                                          "y":  270
+                                                                      },
+                     "backwards=true,shape=ascending_west,power=9":  {
+                                                                         "model":  "create:block/controller_rail/block_ascending_south_redstone_9",
+                                                                         "y":  90
+                                                                     },
+                     "backwards=false,shape=east_west,power=9":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_9",
+                                                                     "y":  270
+                                                                 },
+                     "backwards=true,shape=east_west,power=9":  {
+                                                                    "model":  "create:block/controller_rail/block_north_south_redstone_9",
+                                                                    "y":  90
+                                                                },
+                     "backwards=false,shape=north_south,power=9":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_9"
+                                                                   },
+                     "backwards=true,shape=north_south,power=9":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_9",
+                                                                      "y":  180
+                                                                  },
+                     "backwards=false,shape=ascending_east,power=10":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_10",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=10":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_10",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=10":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_10"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=10":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_10",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=10":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_10"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=10":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_10",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=10":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_10",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=10":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_10",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=10":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_10",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=10":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_10",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=10":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_10"
+                                                                    },
+                     "backwards=true,shape=north_south,power=10":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_10",
+                                                                       "y":  180
+                                                                   },
+                     "backwards=false,shape=ascending_east,power=11":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_11",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=11":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_11",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=11":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_11"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=11":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_11",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=11":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_11"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=11":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_11",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=11":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_11",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=11":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_11",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=11":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_11",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=11":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_11",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=11":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_11"
+                                                                    },
+                     "backwards=true,shape=north_south,power=11":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_11",
+                                                                       "y":  180
+                                                                   },
+                     "backwards=false,shape=ascending_east,power=12":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_12",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=12":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_12",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=12":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_12"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=12":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_12",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=12":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_12"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=12":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_12",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=12":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_12",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=12":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_12",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=12":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_12",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=12":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_12",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=12":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_12"
+                                                                    },
+                     "backwards=true,shape=north_south,power=12":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_12",
+                                                                       "y":  180
+                                                                   },
+                     "backwards=false,shape=ascending_east,power=13":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_13",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=13":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_13",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=13":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_13"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=13":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_13",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=13":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_13"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=13":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_13",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=13":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_13",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=13":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_13",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=13":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_13",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=13":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_13",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=13":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_13"
+                                                                    },
+                     "backwards=true,shape=north_south,power=13":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_13",
+                                                                       "y":  180
+                                                                   },
+                     "backwards=false,shape=ascending_east,power=14":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_14",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=14":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_14",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=14":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_14"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=14":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_14",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=14":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_14"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=14":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_14",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=14":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_14",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=14":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_14",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=14":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_14",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=14":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_14",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=14":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_14"
+                                                                    },
+                     "backwards=true,shape=north_south,power=14":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_14",
+                                                                       "y":  180
+                                                                   },
+                     "backwards=false,shape=ascending_east,power=15":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_15",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_east,power=15":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_north_redstone_15",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=ascending_north,power=15":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_north_redstone_15"
+                                                                        },
+                     "backwards=true,shape=ascending_north,power=15":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_south_redstone_15",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_south,power=15":  {
+                                                                            "model":  "create:block/controller_rail/block_ascending_south_redstone_15"
+                                                                        },
+                     "backwards=true,shape=ascending_south,power=15":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_15",
+                                                                           "y":  180
+                                                                       },
+                     "backwards=false,shape=ascending_west,power=15":  {
+                                                                           "model":  "create:block/controller_rail/block_ascending_north_redstone_15",
+                                                                           "y":  270
+                                                                       },
+                     "backwards=true,shape=ascending_west,power=15":  {
+                                                                          "model":  "create:block/controller_rail/block_ascending_south_redstone_15",
+                                                                          "y":  90
+                                                                      },
+                     "backwards=false,shape=east_west,power=15":  {
+                                                                      "model":  "create:block/controller_rail/block_north_south_redstone_15",
+                                                                      "y":  270
+                                                                  },
+                     "backwards=true,shape=east_west,power=15":  {
+                                                                     "model":  "create:block/controller_rail/block_north_south_redstone_15",
+                                                                     "y":  90
+                                                                 },
+                     "backwards=false,shape=north_south,power=15":  {
+                                                                        "model":  "create:block/controller_rail/block_north_south_redstone_15"
+                                                                    },
+                     "backwards=true,shape=north_south,power=15":  {
+                                                                       "model":  "create:block/controller_rail/block_north_south_redstone_15",
+                                                                       "y":  180
+                                                                   }
+                 }
+}

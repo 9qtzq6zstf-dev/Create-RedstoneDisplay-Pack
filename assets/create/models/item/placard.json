@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/placard",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 0, 0],
+			"translation": [0, 2.75, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 0, 0],
+			"translation": [0, 2.75, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [60, -30, 45],
+			"translation": [-2, 4.25, 2.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [60, -30, 45],
+			"translation": [-2, 4.25, 2.25],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

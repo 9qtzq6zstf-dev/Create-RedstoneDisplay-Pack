@@ -1,0 +1,7 @@
+{
+	"parent": "create:block/placard",
+	"textures": {
+		"0": "create:block/placard_powered",
+		"particle": "create:block/placard_powered"
+	}
+}

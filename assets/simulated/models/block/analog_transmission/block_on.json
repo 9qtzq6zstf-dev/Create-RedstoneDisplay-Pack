@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "simulated:block/analog_transmission/block",
+	"textures": {
+		"0": "simulated:block/analog_transmission/block_inside_on",
+		"1": "simulated:block/analog_transmission/block_on",
+		"4": "create:block/contact_back_powered",
+		"particle": "create:block/brass_casing"
+	}
+}

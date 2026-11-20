@@ -1,0 +1,141 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"redstone_antenna": "create:block/redstone_antenna",
+		"particle": "create:block/redstone_bridge_receiver",
+		"redstone_bridge": "create:block/redstone_bridge_receiver"
+	},
+	"elements": [
+		{
+			"name": "Controller",
+			"from": [2, 0, 2],
+			"to": [14, 3, 14],
+			"faces": {
+				"north": {"uv": [6, 7, 7.5, 13], "rotation": 90, "texture": "#redstone_bridge"},
+				"east": {"uv": [0, 13, 6, 14.5], "texture": "#redstone_bridge"},
+				"south": {"uv": [6, 7, 7.5, 13], "rotation": 90, "texture": "#redstone_bridge"},
+				"west": {"uv": [0, 13, 6, 14.5], "texture": "#redstone_bridge"},
+				"up": {"uv": [0, 7, 6, 13], "rotation": 270, "texture": "#redstone_bridge"},
+				"down": {"uv": [5, 0, 11, 6], "rotation": 90, "texture": "#redstone_bridge"}
+			}
+		},
+		{
+			"name": "Dish0",
+			"from": [0, 7, 3],
+			"to": [3, 7, 6],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [5, 2, 8, 5], "texture": "#redstone_antenna"},
+				"down": {"uv": [5, 2, 8, 5], "rotation": 270, "texture": "#redstone_antenna"}
+			}
+		},
+		{
+			"name": "Dish1",
+			"from": [-2, 7, 3],
+			"to": [0, 7, 6],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 7, 4.5]},
+			"faces": {
+				"up": {"uv": [3, 2, 5, 5], "texture": "#redstone_antenna"},
+				"down": {"uv": [3, 5, 5, 2], "texture": "#redstone_antenna"}
+			}
+		},
+		{
+			"name": "Dish2",
+			"from": [3, 7, 3],
+			"to": [5, 7, 6],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [3, 7, 4.5]},
+			"faces": {
+				"up": {"uv": [8, 2, 10, 5], "texture": "#redstone_antenna"},
+				"down": {"uv": [8, 5, 10, 2], "texture": "#redstone_antenna"}
+			}
+		},
+		{
+			"name": "Dish3",
+			"from": [0, 7, 6],
+			"to": [3, 7, 8],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [1.5, 7, 6]},
+			"faces": {
+				"up": {"uv": [5, 5, 8, 7], "texture": "#redstone_antenna"},
+				"down": {"uv": [5, 7, 8, 5], "texture": "#redstone_antenna"}
+			}
+		},
+		{
+			"name": "Dish4",
+			"from": [0, 7, 1],
+			"to": [3, 7, 3],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [1.5, 7, 3]},
+			"faces": {
+				"up": {"uv": [5, 0, 8, 2], "texture": "#redstone_antenna"},
+				"down": {"uv": [5, 2, 8, 0], "texture": "#redstone_antenna"}
+			}
+		},
+		{
+			"from": [6, 2.5, 3.5],
+			"to": [10, 3.5, 7.5],
+			"faces": {
+				"north": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"east": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"south": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"west": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"up": {"uv": [11, 0, 13, 2], "texture": "#redstone_bridge"}
+			}
+		},
+		{
+			"from": [6, 2.5, 8.5],
+			"to": [10, 3.5, 12.5],
+			"faces": {
+				"north": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"east": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"south": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"west": {"uv": [11, 2, 13, 2.5], "texture": "#redstone_bridge"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#redstone_bridge"}
+			}
+		},
+		{
+			"name": "mast",
+			"from": [1, 1, 4],
+			"to": [2, 10, 5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 5, 14]},
+			"faces": {
+				"north": {"uv": [1, 1, 2, 10], "texture": "#redstone_antenna"},
+				"east": {"uv": [1, 1, 2, 10], "texture": "#redstone_antenna"},
+				"south": {"uv": [1, 1, 2, 10], "texture": "#redstone_antenna"},
+				"west": {"uv": [1, 1, 2, 10], "texture": "#redstone_antenna"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#redstone_antenna"},
+				"down": {"uv": [1, 7, 2, 8], "texture": "#redstone_antenna"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "Dish",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"shade": false,
+			"children": [1, 2, 3, 4, 5]
+		},
+		6,
+		7,
+		{
+			"name": "Antenna",
+			"origin": [2, 5, 14],
+			"color": 0,
+			"children": [8]
+		}
+	]
+}

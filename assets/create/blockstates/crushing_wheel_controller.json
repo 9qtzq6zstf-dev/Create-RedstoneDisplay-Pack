@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "valid=false": {
+      "model": "create:block/crushing_wheel_controller_error"
+    },
+    "valid=true,facing=down": {
+      "model": "create:block/crushing_wheel_controller"
+    },
+    "valid=true,facing=up": {
+      "model": "create:block/crushing_wheel_controller",
+      "x": 180
+    },
+    "valid=true,facing=west": {
+      "model": "create:block/crushing_wheel_controller",
+      "y": 90,
+      "x": 90
+    },
+    "valid=true,facing=east": {
+      "model": "create:block/crushing_wheel_controller",
+      "y": 270,
+      "x": 90
+    },
+    "valid=true,facing=south": {
+      "model": "create:block/crushing_wheel_controller",
+      "x": 90
+    },
+    "valid=true,facing=north": {
+      "model": "create:block/crushing_wheel_controller",
+      "x": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/packager/block",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "create:block/packager_horizontal_linked",
+		"4": "create:block/packager_arrow_link"
+	}
+}

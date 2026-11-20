@@ -1,0 +1,8 @@
+{
+	"parent": "create:block/mechanical_piston/extended/block_rotated",
+    "textures": {
+        "0": "create:block/andesite_casing_piston_sticky",
+        "1": "create:block/piston_bottom_sticky",
+        "3": "create:block/piston_inner_sticky"
+    }
+}

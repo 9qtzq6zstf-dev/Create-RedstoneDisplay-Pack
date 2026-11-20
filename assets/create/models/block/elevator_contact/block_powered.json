@@ -1,0 +1,9 @@
+{
+	"parent": "create:block/elevator_contact/block",
+	"textures": {
+		"0": "create:block/contact_front_powered",
+		"1": "create:block/elevator_contact_side_powered",
+		"3": "create:block/rose_quartz_lamp_powered",
+		"particle": "create:block/elevator_contact_side_powered"
+	}
+}

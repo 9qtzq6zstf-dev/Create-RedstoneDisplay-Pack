@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/item_hatch/block_closed",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-128, -50, -180],
+			"translation": [-0.5, 2.75, -1],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-128, -50, -180],
+			"translation": [-0.5, 2.75, -1],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -80, 0],
+			"translation": [0, 1.2, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -80, 0],
+			"translation": [0, 1.2, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

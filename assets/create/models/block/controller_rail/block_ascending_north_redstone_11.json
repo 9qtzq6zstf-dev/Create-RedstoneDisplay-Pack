@@ -1,0 +1,6 @@
+﻿{
+	"parent": "create:block/controller_rail/block_ascending_north",
+	"textures": {
+		"number": "create:block/controller_rail/redstone_11"
+	}
+}

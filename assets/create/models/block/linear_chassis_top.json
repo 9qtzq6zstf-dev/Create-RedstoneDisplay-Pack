@@ -1,0 +1,70 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/block",
+	"textures": {
+		"sign": "create:block/linear_chassis_s",
+		"bottom": "create:block/linear_chassis_end",
+		"particle": "create:block/linear_chassis_side",
+		"side": "create:block/linear_chassis_side",
+		"top": "create:block/linear_chassis_end_sticky"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.016, 13, -0.016],
+			"to": [16.016, 14, 16.016],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 16, 11], "rotation": 180, "texture": "#sign", "cullface": "north"},
+				"east": {"uv": [0, 10, 16, 11], "rotation": 180, "texture": "#sign", "cullface": "east"},
+				"south": {"uv": [0, 10, 16, 11], "rotation": 180, "texture": "#sign", "cullface": "south"},
+				"west": {"uv": [0, 10, 16, 11], "rotation": 180, "texture": "#sign", "cullface": "west"}
+			}
+		},
+		{
+			"from": [7, -0.02, 9],
+			"to": [9, -0.02, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [7, 6, 9, 7], "rotation": 180, "texture": "#sign", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, -0.02, 6],
+			"to": [7, -0.02, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [9, 3, 10, 7], "rotation": 180, "texture": "#sign", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, -0.02, 6],
+			"to": [9, -0.02, 7],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [7, 3, 9, 4], "rotation": 180, "texture": "#sign", "cullface": "down"}
+			}
+		},
+		{
+			"from": [9, -0.02, 6],
+			"to": [10, -0.02, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [6, 3, 7, 7], "rotation": 180, "texture": "#sign", "cullface": "down"}
+			}
+		}
+	]
+}

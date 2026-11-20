@@ -1,0 +1,8 @@
+{
+	"parent": "create:block/redstone_contact/block",
+	"textures": {
+		"0": "create:block/contact_front_powered",
+		"1": "create:block/contact_side_powered",
+		"3": "create:block/contact_back_powered"
+	}
+}
