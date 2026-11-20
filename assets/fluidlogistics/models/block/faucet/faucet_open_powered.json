@@ -1,0 +1,6 @@
+{
+	"parent": "fluidlogistics:block/faucet/faucet_open",
+	"textures": {
+		"redstone": "create:block/funnel/funnel_extended_powered"
+	}
+}
