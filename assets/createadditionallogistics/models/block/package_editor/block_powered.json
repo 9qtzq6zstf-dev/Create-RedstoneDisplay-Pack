@@ -1,0 +1,9 @@
+{
+	"parent": "create:block/repackager/block",
+	"render_type": "cutout",
+	"textures": {
+		"1": "createadditionallogistics:block/package_editor/package_editor_details",
+		"2": "createadditionallogistics:block/package_editor/package_editor_horizontal_powered",
+		"particle": "createadditionallogistics:block/package_editor/package_editor_particle"
+	}
+}
