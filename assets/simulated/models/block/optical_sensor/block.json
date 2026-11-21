@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "simulated:block/optical_sensor/optical_sensor_off",

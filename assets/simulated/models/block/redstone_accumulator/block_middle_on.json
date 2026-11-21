@@ -1,8 +1,0 @@
-{
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
-	"parent": "simulated:block/redstone_accumulator/block_middle_off",
-	"textures": {
-		"top": "simulated:block/redstone_accumulator/block_powered"
-	}
-}

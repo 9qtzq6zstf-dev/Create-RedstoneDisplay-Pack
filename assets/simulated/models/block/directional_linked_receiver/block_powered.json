@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"ambientocclusion": false,
 	"textures": {
 		"1": "simulated:block/modulating_directional_receiver",
@@ -9,9 +9,9 @@
 	"elements": [
 		{
 			"name": "side_plate",
-			"from": [5, 10, 11],
-			"to": [11, 10, 14],
-			"rotation": {"angle": -45, "axis": "x", "origin": [8, 10, 11]},
+			"from": [5, 8, 11],
+			"to": [11, 8, 14],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 11]},
 			"faces": {
 				"up": {"uv": [4, 16, 7, 14.5], "texture": "#1"},
 				"down": {"uv": [4, 14.5, 7, 16], "texture": "#1"}
@@ -19,9 +19,9 @@
 		},
 		{
 			"name": "side_plate",
-			"from": [11, 10, 5],
-			"to": [14, 10, 11],
-			"rotation": {"angle": 45, "axis": "z", "origin": [11, 10, 8]},
+			"from": [11, 8, 5],
+			"to": [14, 8, 11],
+			"rotation": {"angle": 45, "axis": "z", "origin": [11, 8, 8]},
 			"faces": {
 				"up": {"uv": [4, 16, 7, 14.5], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [4, 14.5, 7, 16], "rotation": 90, "texture": "#1"}
@@ -29,9 +29,9 @@
 		},
 		{
 			"name": "side_plate",
-			"from": [5, 10, 2],
-			"to": [11, 10, 5],
-			"rotation": {"angle": 45, "axis": "x", "origin": [8, 10, 5]},
+			"from": [5, 8, 2],
+			"to": [11, 8, 5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 5]},
 			"faces": {
 				"up": {"uv": [4, 14.5, 7, 16], "texture": "#1"},
 				"down": {"uv": [4, 14.5, 7, 16], "rotation": 180, "texture": "#1"}
@@ -39,9 +39,8 @@
 		},
 		{
 			"name": "center_plate",
-			"from": [5, 10, 5],
-			"to": [11, 10, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"from": [5, 8, 5],
+			"to": [11, 8, 11],
 			"faces": {
 				"up": {"uv": [7, 13, 10, 16], "texture": "#1"},
 				"down": {"uv": [7, 13, 10, 16], "texture": "#1"}
@@ -49,9 +48,9 @@
 		},
 		{
 			"name": "side_plate",
-			"from": [2, 10, 5],
-			"to": [5, 10, 11],
-			"rotation": {"angle": -45, "axis": "z", "origin": [5, 10, 8]},
+			"from": [2, 8, 5],
+			"to": [5, 8, 11],
+			"rotation": {"angle": -45, "axis": "z", "origin": [5, 8, 8]},
 			"faces": {
 				"up": {"uv": [4, 14.5, 7, 16], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [4, 14.5, 7, 16], "rotation": 270, "texture": "#1"}
@@ -106,12 +105,22 @@
 				"up": {"uv": [14, 5.5, 14.5, 6], "texture": "#1"},
 				"down": {"uv": [14, 5.5, 14.5, 6], "texture": "#1"}
 			}
+		},
+		{
+			"from": [6, -0.02, 6],
+			"to": [10, -0.02, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -0.02, 6]},
+			"faces": {
+				"down": {"uv": [2, 14, 4, 16], "texture": "#1"}
+			}
 		}
 	],
 	"groups": [
 		{
 			"name": "iron_plate",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4]
 		},
@@ -119,9 +128,11 @@
 		{
 			"name": "group",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"shade": false,
 			"children": [6, 7, 8]
-		}
+		},
+		9
 	]
 }

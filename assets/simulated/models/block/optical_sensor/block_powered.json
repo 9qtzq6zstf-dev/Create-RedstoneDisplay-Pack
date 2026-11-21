@@ -1,6 +1,5 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
 	"parent": "simulated:block/optical_sensor/block",
 	"textures": {
 		"3": "simulated:block/optical_sensor/optical_sensor_on",

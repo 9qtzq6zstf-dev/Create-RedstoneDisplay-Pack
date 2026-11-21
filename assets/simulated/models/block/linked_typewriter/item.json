@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"textures": {
 		"1": "simulated:block/linked_typewriter/linked_typewriter",
 		"2": "create:block/tunnel/brass_tunnel_top",
@@ -78,7 +78,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 7.5]},
 			"faces": {
 				"north": {"uv": [15, 10, 9, 11], "texture": "#1"},
-				"south": {"uv": [0, 11.5, 8, 13.5], "texture": "#1"}
+				"south": {"uv": [9, 10, 15, 11], "texture": "#1"}
 			}
 		},
 		{
@@ -463,12 +463,14 @@
 		{
 			"name": "Body",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		},
 		{
 			"name": "Keys",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
 		},
@@ -476,13 +478,16 @@
 		{
 			"name": "Key Mounts",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 		},
 		{
 			"name": "Antenna",
 			"origin": [2, 5, 14],
+			"scope": 0,
 			"color": 0,
+			"shade": false,
 			"children": [36]
 		}
 	]

@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"ambientocclusion": false,
 	"textures": {
 		"1": "simulated:block/modulating_directional_receiver",
@@ -17,6 +17,15 @@
 				"west": {"uv": [7, 7, 14, 8.5], "texture": "#1"},
 				"up": {"uv": [14, 7, 7, 0], "rotation": 90, "texture": "#1"},
 				"down": {"uv": [7, 7, 0, 14], "rotation": 270, "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, -0.02, 6],
+			"to": [10, -0.02, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -0.02, 6]},
+			"faces": {
+				"down": {"uv": [2, 14, 4, 16], "texture": "#1"}
 			}
 		},
 		{
@@ -60,12 +69,14 @@
 	],
 	"groups": [
 		0,
+		1,
 		{
 			"name": "group",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"shade": false,
-			"children": [1, 2, 3]
+			"children": [2, 3, 4]
 		}
 	]
 }
