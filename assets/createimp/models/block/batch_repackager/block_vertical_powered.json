@@ -1,4 +1,5 @@
 {
+	"render_type": "cutout",
 	"parent": "create:block/repackager/block_vertical_powered",
 	"textures": {
 		"0": "createimp:block/batch_repackager/batch_packager_frame",
