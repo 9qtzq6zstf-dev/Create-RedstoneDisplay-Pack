@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:block/cuckoo_clock/block_bomb",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:block/cuckoo_clock/block_bomb"
+    },
+    "facing=south": {
+      "model": "create:block/cuckoo_clock/block_bomb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:block/cuckoo_clock/block_bomb",
+      "y": 270
+    }
+  }
+}

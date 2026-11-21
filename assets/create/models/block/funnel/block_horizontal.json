@@ -84,11 +84,12 @@
 			}
 		},
 		{
-			"from": [2.01, 8.93431, 6.63],
+			"from": [2.01, 9.93431, 6.63],
 			"to": [14.01, 12.93431, 6.63],
+			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.05, 12.93431, 6.64243]},
 			"faces": {
-				"north": {"uv": [2, 2, 14, 6], "texture": "#arrow"}
+				"north": {"uv": [2, 2, 14, 5], "texture": "#arrow"}
 			}
 		}
 	],
@@ -96,22 +97,26 @@
 		{
 			"name": "block_retracted",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "BeltFunnel",
 					"origin": [9, -4, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "FrontSection",
 							"origin": [9, -4, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [0, 1]
 						},
 						{
 							"name": "Base",
 							"origin": [9, -4, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [2, 3]
 						}
@@ -124,7 +129,9 @@
 		{
 			"name": "group",
 			"origin": [7.05, 12.93431, 6.64243],
+			"scope": 0,
 			"color": 0,
+			"shade": false,
 			"children": [6]
 		}
 	]

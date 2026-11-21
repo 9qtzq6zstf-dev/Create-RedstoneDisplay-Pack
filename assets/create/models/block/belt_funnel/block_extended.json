@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"back": "create:block/funnel/funnel_back",
@@ -112,6 +112,7 @@
 		{
 			"from": [2, 12, -0.01],
 			"to": [14, 14, -0.01],
+			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3.04, 15.87003, 5.01969]},
 			"faces": {
 				"north": {"uv": [2, 2, 14, 4], "texture": "#arrow"}
@@ -122,23 +123,27 @@
 		{
 			"name": "BeltFunnel",
 			"origin": [9, -4, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "FrontSection",
 					"origin": [9, -4, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [0, 1, 2, 3]
 				},
 				{
 					"name": "Extension",
 					"origin": [9, -4, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [4, 5]
 				},
 				{
 					"name": "Base",
 					"origin": [9, -4, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [6, 7]
 				}
@@ -147,7 +152,9 @@
 		{
 			"name": "group",
 			"origin": [7.05, 12.93431, 6.64243],
+			"scope": 0,
 			"color": 0,
+			"shade": false,
 			"children": [8]
 		}
 	]

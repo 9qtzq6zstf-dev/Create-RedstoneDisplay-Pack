@@ -1,6 +1,5 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
 	"parent": "create:block/mechanical_harvester/item",
 	"display": {
 		"thirdperson_righthand": {

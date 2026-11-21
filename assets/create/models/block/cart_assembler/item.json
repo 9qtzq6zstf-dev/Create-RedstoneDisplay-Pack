@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"4": "create:block/cart_assembler_front_off",
@@ -16,12 +16,12 @@
 			"from": [13.875, 0.062, 1.125],
 			"to": [17.875, 13.937, 14.875],
 			"faces": {
-				"north": {"uv": [15, 14.875, 11, 1], "texture": "#4"},
+				"north": {"uv": [15, 15, 11, 1], "texture": "#4"},
 				"east": {"uv": [15, 15, 1, 1], "rotation": 180, "texture": "#6"},
-				"south": {"uv": [5, 14.875, 1, 1], "texture": "#4"},
+				"south": {"uv": [5, 15, 1, 1], "texture": "#4"},
 				"west": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#translation_chassis_side"},
-				"up": {"uv": [1, 5, 14.75, 1], "rotation": 270, "texture": "#6"},
-				"down": {"uv": [1, 15, 14.75, 11], "rotation": 90, "texture": "#6"}
+				"up": {"uv": [1, 5, 15, 1], "rotation": 270, "texture": "#6"},
+				"down": {"uv": [1, 15, 15, 11], "rotation": 90, "texture": "#6"}
 			}
 		},
 		{
@@ -29,12 +29,12 @@
 			"from": [-1.875, 0.062, 1.125],
 			"to": [2.125, 13.937, 14.875],
 			"faces": {
-				"north": {"uv": [11, 14.875, 15, 1], "texture": "#4"},
+				"north": {"uv": [11, 15, 15, 1], "texture": "#4"},
 				"east": {"uv": [1, 15, 15, 1], "rotation": 90, "texture": "#translation_chassis_side"},
-				"south": {"uv": [1, 14.875, 5, 1], "texture": "#4"},
+				"south": {"uv": [1, 15, 5, 1], "texture": "#4"},
 				"west": {"uv": [1, 15, 15, 1], "rotation": 180, "texture": "#6"},
-				"up": {"uv": [1, 5, 14.75, 1], "rotation": 90, "texture": "#6"},
-				"down": {"uv": [1, 15, 14.75, 11], "rotation": 270, "texture": "#6"}
+				"up": {"uv": [1, 5, 15, 1], "rotation": 90, "texture": "#6"},
+				"down": {"uv": [1, 15, 15, 11], "rotation": 270, "texture": "#6"}
 			}
 		},
 		{
@@ -86,6 +86,7 @@
 		{
 			"name": "block",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2]
 		}

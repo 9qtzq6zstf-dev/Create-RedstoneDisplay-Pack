@@ -1,9 +1,10 @@
 {
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"textures": {
-		"2": "block/piston_side",
+		"2": "create:block/piston_extension_pole",
 		"3": "create:block/sticker",
-		"particle": "block/piston_bottom"
+		"particle": "create:block/piston_extension_pole"
 	},
 	"elements": [
 		{
@@ -24,10 +25,10 @@
 			"to": [10, 8, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [14, 11, 14]},
 			"faces": {
-				"north": {"uv": [0, 0, 5, 4], "rotation": 90, "texture": "#2"},
-				"east": {"uv": [0, 0, 5, 4], "rotation": 90, "texture": "#2"},
-				"south": {"uv": [0, 0, 5, 4], "rotation": 90, "texture": "#2"},
-				"west": {"uv": [0, 0, 5, 4], "rotation": 90, "texture": "#2"}
+				"north": {"uv": [9, 0, 13, 5], "texture": "#2"},
+				"east": {"uv": [9, 0, 13, 5], "texture": "#2"},
+				"south": {"uv": [9, 0, 13, 5], "texture": "#2"},
+				"west": {"uv": [9, 0, 13, 5], "texture": "#2"}
 			}
 		}
 	],
@@ -35,6 +36,8 @@
 		{
 			"name": "Piston Head",
 			"origin": [14, 28, 14],
+			"scope": 0,
+			"color": 0,
 			"children": [0, 1]
 		}
 	]

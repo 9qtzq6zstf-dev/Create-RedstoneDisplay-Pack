@@ -1,4 +1,5 @@
 {
+	"credit": "Second edit by Takia",
 	"parent": "create:item/linked_controller/powered",
 	"textures": {
 		"particle": "create:item/linked_controller",

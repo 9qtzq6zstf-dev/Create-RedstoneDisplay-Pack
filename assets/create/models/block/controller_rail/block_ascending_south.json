@@ -1,6 +1,6 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Second edit by Takia",
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "create:block/controller_rail/controller_rail_base",

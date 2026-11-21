@@ -1,6 +1,5 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
 	"parent": "create:block/encased_chain_drive/middle_horizontal",
 	"textures": {
 		"side_ab": "create:block/adjustable_chain_gearshift_ab_powered"

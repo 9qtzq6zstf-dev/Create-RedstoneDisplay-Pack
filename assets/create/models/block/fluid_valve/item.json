@@ -1,12 +1,12 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"textures": {
 		"2": "create:block/fluid_valve_open",
 		"4": "create:block/valve_open",
+		"particle": "create:block/valve_open",
 		"1_1": "create:block/axis_top",
-		"1_0": "create:block/axis",
-		"particle": "create:block/valve_closed"
+		"1_0": "create:block/axis"
 	},
 	"elements": [
 		{
@@ -137,18 +137,21 @@
 		{
 			"name": "group",
 			"origin": [16, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4]
 		},
 		{
 			"name": "shaft",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [5]
 		},
 		{
 			"name": "hands",
 			"origin": [7, 14, 4],
+			"scope": 0,
 			"color": 0,
 			"children": [6, 7]
 		}

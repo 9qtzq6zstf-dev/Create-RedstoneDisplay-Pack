@@ -1,6 +1,6 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"2": "create:block/encased_chain_drive_middle_a",

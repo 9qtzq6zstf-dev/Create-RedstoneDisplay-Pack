@@ -1,4 +1,5 @@
 {
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"redstone_antenna": "create:block/redstone_antenna",

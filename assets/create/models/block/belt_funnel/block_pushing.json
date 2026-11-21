@@ -1,14 +1,14 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
+	"format_version": "1.9.0",
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"back": "create:block/funnel/funnel_back",
 		"base": "create:block/funnel/brass_funnel",
 		"direction": "create:block/funnel/brass_funnel_push",
 		"redstone": "create:block/funnel/brass_funnel_unpowered",
-		"particle": "create:block/brass_block",
-		"arrow": "create:block/funnel/funnel_push_unpowered"
+		"arrow": "create:block/funnel/funnel_push_unpowered",
+		"particle": "create:block/brass_block"
 	},
 	"elements": [
 		{
@@ -85,11 +85,12 @@
 			}
 		},
 		{
-			"from": [2.01, 8.55847, 5.68],
+			"from": [2.01, 9.55847, 5.68],
 			"to": [14.01, 12.55847, 5.68],
+			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.09, 14.55847, 5.7405]},
 			"faces": {
-				"north": {"uv": [2, 2, 14, 6], "texture": "#arrow"}
+				"north": {"uv": [2, 2, 14, 5], "texture": "#arrow"}
 			}
 		}
 	],
@@ -97,16 +98,19 @@
 		{
 			"name": "block_retracted",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "BeltFunnel",
 					"origin": [9, -4, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "Base",
 							"origin": [9, -4, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [0, 1, 2]
 						}
@@ -118,13 +122,16 @@
 		{
 			"name": "Front_section",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [4, 5]
 		},
 		{
 			"name": "group",
 			"origin": [7.05, 12.93431, 6.64243],
+			"scope": 0,
 			"color": 0,
+			"shade": false,
 			"children": [6]
 		}
 	]
