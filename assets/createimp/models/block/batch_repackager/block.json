@@ -1,0 +1,9 @@
+{
+	"parent": "create:block/repackager/block",
+	"textures": {
+		"0": "createimp:block/batch_repackager/batch_packager_frame",
+		"1": "createimp:block/batch_repackager/batch_packager_details",
+		"2": "createimp:block/batch_repackager/batch_packager_horizontal_unpowered",
+		"particle": "createimp:block/batch_repackager/batch_repackager_particle"
+	}
+}
