@@ -1,6 +1,6 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Second edit by Takia",
 	"parent": "block/block",
 	"textures": {
 		"particle": "fluidlogistics:block/faucet/faucet",

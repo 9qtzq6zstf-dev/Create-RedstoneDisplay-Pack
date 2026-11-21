@@ -1,6 +1,6 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Second edit by Takia",
 	"parent": "create_connected:block/linked_transmitter/block_vertical",
 	"ambientocclusion": false,
 	"textures": {
