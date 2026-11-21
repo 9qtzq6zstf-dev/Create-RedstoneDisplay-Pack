@@ -1,0 +1,12 @@
+{
+	"render_type": "cutout",
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "create:block/repackager/block_vertical_down_powered",
+	"textures": {
+		"0": "createimp:block/batch_repackager/batch_packager_frame",
+		"1": "createimp:block/batch_repackager/batch_packager_details",
+		"5": "createimp:block/batch_repackager/batch_packager_vertical_powered",
+		"particle": "createimp:block/batch_repackager/batch_repackager_particle"
+	}
+}
