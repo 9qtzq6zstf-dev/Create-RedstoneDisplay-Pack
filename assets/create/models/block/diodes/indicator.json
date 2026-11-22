@@ -1,0 +1,22 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"flexpeater_off": "create:block/diodes/pulse_repeater/idle"
+	},
+	"elements": [
+		{
+			"name": "Light",
+			"from": [3.96875, 1.96875, 3.96875],
+			"to": [12.03125, 3, 12.03125],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 4, 12, 5], "rotation": 180, "texture": "#flexpeater_off"},
+				"east": {"uv": [11, 4, 12, 12], "rotation": 90, "texture": "#flexpeater_off"},
+				"south": {"uv": [4, 11, 12, 12], "texture": "#flexpeater_off"},
+				"west": {"uv": [4, 12, 5, 4], "rotation": 90, "texture": "#flexpeater_off"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#flexpeater_off"}
+			}
+		}
+	]
+}
