@@ -1,5 +1,5 @@
 {
-	"parent": "create:block/repackager/block",
+	"parent": "create:block/repackager/block_powered",
 	"render_type": "cutout",
 	"textures": {
 		"1": "createadditionallogistics:block/package_editor/package_editor_details",
