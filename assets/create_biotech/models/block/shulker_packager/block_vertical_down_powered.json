@@ -1,0 +1,10 @@
+{
+	"render_type": "cutout",
+	"parent": "create:block/repackager/block_vertical_down_powered",
+	"textures": {
+		"0": "create_biotech:block/shulker_packager/frame",
+		"1": "create_biotech:block/shulker_packager/details",
+		"5": "create_biotech:block/shulker_packager/vertical_powered",
+		"particle": "create_biotech:block/shulker_packager/particle"
+	}
+}
